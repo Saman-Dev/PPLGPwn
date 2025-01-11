@@ -95,7 +95,7 @@ Downloading files...
 -------${NC}
 "
 mkdir -p /media/internal/downloads/PPLGPwn
-curl -fsSL -o /media/internal/downloads/PPLGPwn/pppwn https://github.com/Saman-Dev/PPLGPwn/blob/main/pppwn_aarch64
+curl -fsSL -o /media/internal/downloads/PPLGPwn/pppwn https://raw.githubusercontent.com/Saman-Dev/PPLGPwn/refs/heads/main/pppwn_aarch64
 curl -fsSL -o /media/internal/downloads/PPLGPwn/run.sh https://github.com/$repo/PPLGPwn/raw/main/run.sh
 curl -fsSL -o /media/internal/downloads/PPLGPwn/stage1.bin https://github.com/$repo/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
 curl -fsSL -o /media/internal/downloads/PPLGPwn/stage2.bin https://github.com/$repo/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
